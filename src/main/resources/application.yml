@@ -1,0 +1,8 @@
+spring:
+  data:
+    cassandra:
+      port: 9042
+      contact-points: 127.0.0.1
+      schema-action: create_if_not_exists
+      local-datacenter: datacenter1
+      keyspace-name: todos
